@@ -33,6 +33,7 @@ My application offers a simple and secure registration form, providing users wit
 
 After registration, users can log in and access their personal legal dashboard, where they can manage documents, seek expert support, and utilize our fast-track services.
 
+![Register page](https://github.com/ratheesh123/Application-for-documents/assets/30384619/c68d2992-3ede-4364-ab94-2228ddf3653b)
 
 
 # Login Page
@@ -54,6 +55,7 @@ The login page is designed to be simple and secure, providing both users and adm
 
 If you can't remember your password, just click on 'Forgot your password?' to reset it.
 
+![Login page](https://github.com/ratheesh123/Application-for-documents/assets/30384619/a5417750-a8ff-4365-93aa-71ddaebfb077)
 
 ## How to Use the Dashboard
 
@@ -62,6 +64,7 @@ If you can't remember your password, just click on 'Forgot your password?' to re
 3. Enter any additional information required in the text box provided.
 4. Use the 'Add More document' button if you have more than one document to upload.
 5. Click 'Submit' to send your documents for processing.
+![USER DASHBOARD](https://github.com/ratheesh123/Application-for-documents/assets/30384619/37368f54-c40a-4aff-a262-c25c1395a463)
 
 
 # Admin Dashboard Guide
@@ -95,6 +98,7 @@ The Admin Dashboard is a central feature of our application, allowing administra
 ## Note
 The Admin Dashboard is a powerful tool — use it with care and always ensure proper handling of user data according to privacy laws and regulations.
 
+![ADMIN DASHBOARD](https://github.com/ratheesh123/Application-for-documents/assets/30384619/ae3b74b6-8ef9-4f7d-b75d-17af735f2b51)
 
 ## How to Use It?
 
