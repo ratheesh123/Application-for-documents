@@ -27,20 +27,6 @@ mongoose
   .then(() => console.log("MongoDB Connected"))
   .catch((err) => console.error("Could not connect to MongoDB:", err));
 
-// // Multer Configuration for File Uploads
-// const uploadDir = path.join(__dirname, "uploads");
-// fs.existsSync(uploadDir) || fs.mkdirSync(uploadDir, { recursive: true });
-
-// const storage = multer.diskStorage({
-//   destination: (req, file, cb) => cb(null, "uploads/"),
-//   filename: (req, file, cb) => {
-//     const uniqueFilename = `${Date.now()}-${file.originalname}`;
-//     cb(null, uniqueFilename);
-//   },
-// });
-
-//const upload = multer({ storage });
-
 // Configure nodemailer transport
 const transporter = nodemailer.createTransport({
   service: "gmail",
@@ -49,8 +35,6 @@ const transporter = nodemailer.createTransport({
     pass: process.env.EMAIL_PASSWORD,
   },
 });
-
-
 // Email sending endpoint
 app.post("/api/send-email", authenticate, async (req, res) => {
   const { to, subject, text } = req.body;
