@@ -13,7 +13,7 @@ const Header = () => {
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-10 h-10 text-white p-2 bg-blue-700 rounded-full" viewBox="0 0 24 24">
                         <path d="M12 2l9 4.5v6c0 5-4 9-9 9s-9-4-9-9v-6L12 2z"></path>
                     </svg>
-                    <span className="ml-3 text-xl">MyApp</span>
+                    <span className="ml-3 text-xl">LegalEase</span>
                 </Link>
                 <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
                     {user ? (
