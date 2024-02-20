@@ -1,6 +1,7 @@
 # Application Document Platform
 
 # User-Friendly Legal Document Platform
+![Homepage](https://github.com/ratheesh123/Application-for-documents/assets/30384619/5df7a6f7-49b1-47e3-a6f3-6c587c65c2f5)
 
 ## Tech Stuff
 
